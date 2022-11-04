@@ -1,7 +1,6 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-
 }
 
 body {
@@ -55,8 +54,7 @@ a {
     height: 670px;
     background-color: #000000;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-    align-items: center;
-    
+    align-items: center;  
 }
 
 h1,
@@ -107,13 +105,13 @@ h2 {
     max-width: 1285px;
 }
 
-
 .project-title {
     background: #303841;
     border-radius: 2px;
     font-size: 2rem;
     padding: 0 0 0.5rem;
 }
+
 #project-image{
     object-fit: cover;
     width: 100%;
@@ -121,10 +119,6 @@ h2 {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
 }
-
-/* .text {
-    color: var(--main-gray);
-} */
 
 .project-title:hover .text{
     color: #ff7f50;
@@ -134,7 +128,6 @@ h2 {
     border-radius: 3px;
     padding: 10px 20px;
     display: inline-block;
-    /* margin: 6rem 20px; */
 }
 
 .btn-show-all {
@@ -148,14 +141,10 @@ h2 {
 }
 
 .btn-show-all > i{
-    /* transition: transform 0.3s ease-out; */
     margin-left: 10px;
-    /* transform: translateX(0); */
 }
 
-/* .btn-show-all:hover > i {
-    transform: translateX(2px);
-} */
+
 .contact-section {
     flex-direction: column;
     display: flex;
