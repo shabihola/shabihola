@@ -89,8 +89,7 @@ section article {
     margin: 15px;
 }
 
-@media only screen and (max-width: 815px) {
-    /* For mobile phones: */
+@media  (max-width: 815px) {
     #navbar ul {
       height: 207px;
       border: 1px solid; 
@@ -118,7 +117,7 @@ section article {
 }
 
 
-@media only screen and (max-width: 400px) {
+@media (max-width: 400px) {
     #main-doc {
       margin-left: -10px;
     }
